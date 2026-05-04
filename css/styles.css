@@ -678,34 +678,23 @@ button {
 }
 
 .about__photo-circle {
-  width: 260px;
-  height: 260px;
+  width: 340px;
+  height: 340px;
   border-radius: 50%;
-  border: 3px dashed var(--primary);
-  background: linear-gradient(
-    135deg,
-    rgba(179, 102, 170, 0.10) 0%,
-    rgba(179, 102, 170, 0.03) 100%
-  );
+  border: 3px solid var(--primary);
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.875rem;
-  color: var(--primary);
-  transition: border-color var(--transition), background var(--transition);
+  box-shadow: var(--shadow-md);
 }
 
-.about__photo-circle svg {
-  width: 52px;
-  height: 52px;
-}
-
-.about__photo-circle span {
-  font-size: 0.8125rem;
-  font-weight: 500;
-  color: var(--gray);
-  letter-spacing: 0.03em;
+.about__photo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -1220,13 +1209,8 @@ a.contact-card--email:hover .contact-card__icon {
   }
 
   .about__photo-circle {
-    width: 200px;
-    height: 200px;
-  }
-
-  .about__photo-circle svg {
-    width: 40px;
-    height: 40px;
+    width: 260px;
+    height: 260px;
   }
 
   .contact__actions {
@@ -1340,8 +1324,8 @@ a.contact-card--email:hover .contact-card__icon {
   }
 
   .about__photo-circle {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: 220px;
   }
 
   /* Reviews carousel mobile */

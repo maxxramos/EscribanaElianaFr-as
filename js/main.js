@@ -46,7 +46,12 @@ document.addEventListener('DOMContentLoaded', () => {
     compraventa: {
       icon: 'home',
       title: 'Compraventa de Inmuebles',
-      detail: 'Brindamos acompañamiento integral en la compra y venta de propiedades, desde la revisión de antecedentes dominiales hasta la firma de escrituras. Verificamos la titulación, gestionamos los trámites ante organismos estatales y garantizamos la seguridad jurídica de cada operación para todas las partes. También asesoramos en permutas y adjudicaciones de bienes inmuebles.'
+      detail: 'Brindamos acompañamiento integral en todo el proceso de compraventa de propiedades: desde que el cliente inicia la búsqueda del inmueble hasta la inscripción del Título de Propiedad en el Registro correspondiente. Verificamos antecedentes dominiales, gestionamos los trámites ante organismos estatales y garantizamos la seguridad jurídica de cada operación para todas las partes.'
+    },
+    vehiculos: {
+      icon: 'car',
+      title: 'Compraventa de Vehículos',
+      detail: 'Gestionamos de forma integral la compraventa de vehículos automotores: elaboración del contrato, verificación de la documentación del rodado, gestión de certificados de libre deuda y trámites de inscripción ante el Registro Nacional de Vehículos. Acompañamos tanto a vendedores como compradores en cada etapa para garantizar una operación segura y transparente.'
     },
     poderes: {
       icon: 'file-text',
