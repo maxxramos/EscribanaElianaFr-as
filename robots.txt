@@ -1,6 +1,3 @@
-# Estudio Jurídico Escribana Eliana Frías — robots.txt
-# https://estudiojuridicoelianafrias.com/
-
 User-agent: *
 Allow: /
 
