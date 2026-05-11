@@ -1,0 +1,12 @@
+# Estudio Jurídico Escribana Eliana Frías — robots.txt
+# https://estudiojuridicoelianafrias.com/
+
+User-agent: *
+Allow: /
+
+# Bloquear recursos que no aportan valor al índice
+Disallow: /js/
+Disallow: /css/
+
+# Sitemap
+Sitemap: https://estudiojuridicoelianafrias.com/sitemap.xml

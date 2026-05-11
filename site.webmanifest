@@ -1,0 +1,22 @@
+{
+  "name": "Estudio Jurídico Escribana Eliana Frías",
+  "short_name": "Escribana Frías",
+  "description": "Servicios notariales en Maldonado, Uruguay",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F7F4F7",
+  "theme_color": "#B366AA",
+  "lang": "es-UY",
+  "icons": [
+    {
+      "src": "/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
